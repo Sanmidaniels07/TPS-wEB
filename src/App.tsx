@@ -1,10 +1,14 @@
 import './App.css';
+import Hero from './Components/Landing Page/Hero';
+import TopMostInfo from './Components/Landing Page/TopMostInfo';
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      TPS web site
-  </h1>
+    <div>
+      <TopMostInfo/>
+      <Hero/>
+    </div>
   );
 }
 
