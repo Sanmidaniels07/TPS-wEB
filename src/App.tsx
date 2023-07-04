@@ -1,10 +1,11 @@
 import './App.css';
+import Navbar from './Navbar/index'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      TPS web site
-  </h1>
+    <>
+      <Navbar />
+    </>
   );
 }
 
