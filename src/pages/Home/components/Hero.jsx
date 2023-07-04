@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineSound, } from "react-icons/ai";
 import { FaUsers, FaBasketballBall, FaCloudflare, FaCreativeCommonsZero } from "react-icons/fa";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
