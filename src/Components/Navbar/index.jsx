@@ -19,8 +19,8 @@ const Navbar = () => {
   const [challengeOpen, setChallengeOpen] = useState(false);
 
   return (
-    <header className="relative z-40">
-      <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-neutral-700 text-white hover:bg-black border-b-2 border-b-primary'>
+    <header className="relative z-40 bg-black bg-opacity-70">
+      <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-transparent text-white hover:bg-black border-b-2 border-b-primary'>
         <a href="#">
           <svg className="text-white w-40" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
             <g className="fill-current" fill-rule="evenodd"> 

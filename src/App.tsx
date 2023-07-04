@@ -1,12 +1,15 @@
 import './App.css';
-import Navbar from './Navbar/index'
+import Hero from './Components/Landing Page/Hero';
+import TopMostInfo from './Components/Landing Page/TopMostInfo';
+
 
 function App() {
   return (
-    <>
-      <Navbar />
-    </>
+    <div>
+      <TopMostInfo/>
+      <Hero/>
+    </div>
   );
 }
 
-export default App;
+export default App
