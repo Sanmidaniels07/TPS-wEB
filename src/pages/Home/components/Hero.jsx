@@ -6,7 +6,7 @@ import heroLogo from "../../../images/hero-log.png"
 
 export default function Hero() {
   return (
-    <section id="Hero">
+    <section id="hero">
       <Navbar />
       <div className="bg-black bg-opacity-70  min-h-screen ">
         <div className="flex flex-col py-40 px-6 md:px-14 text-left md:flex-row space-x-10">
