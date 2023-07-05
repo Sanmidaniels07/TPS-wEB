@@ -1,5 +1,6 @@
 import React from 'react'
-import cookie from '../../../Images/cookie.png'
+import cookie from '../../../images/cookie.png'
+
 const Cookies = () => {
   return (
     <section className='bg-white relative'>
