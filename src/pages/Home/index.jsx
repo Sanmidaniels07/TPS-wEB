@@ -4,6 +4,7 @@ import SuccessStories from './components/SuccessStories'
 import SpecialiseSupport from './components/SpecialiseSupport'
 import Cookies from './components/Cookies'
 import './home.css'
+import Partners from './components/Partners'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <SpecialiseSupport/>
       <SuccessStories />
+      <Partners />
       <Cookies/>
     </>
   )
