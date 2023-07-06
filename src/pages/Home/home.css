@@ -1,13 +1,75 @@
-#Hero {
-  background-image: url("../../images/hero.jpg");
+#hero {
+  background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/03/laptop-1024x681.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media (max-width: 570px) {
-  #Hero {
-    background-image: url("../../images/hero.jpg");
+  #hero {
+    background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/03/laptop-1024x681.jpeg");
     background-size: center;
   }
 }
+.item {
+  @apply relative w-full cursor-pointer overflow-hidden;
+}
+.item-gradient {
+  @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-primary-dark opacity-60 group-hover:transition-colors group-hover:duration-[4s] group-hover:opacity-80;
+}
+.item-gradient:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(3, 20, 41, 0.75) 0,
+    rgba(3, 20, 41, 0.25) 50%,
+    rgba(3, 20, 41, 0.25)
+  );
+}
 
+#ealhs729faa21 {
+  animation-name: ealhs729faa21_s_do, ealhs729faa21_s_da;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes ealhs729faa21_s_do {
+  0% {
+    stroke-dashoffset: 2426.95;
+  }
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+@keyframes ealhs729faa21_s_da {
+  0% {
+    stroke-dasharray: 526.95, 2300;
+  }
+  100% {
+    stroke-dasharray: 526.95, 2300;
+  }
+}
+#ealhs729faa25 {
+  animation-name: ealhs729faa25_s_do, ealhs729faa25_s_da;
+  animation-duration: 2500ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-iteration-count: infinite;
+}
+@keyframes ealhs729faa25_s_do {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 2475;
+  }
+}
+@keyframes ealhs729faa25_s_da {
+  0% {
+    stroke-dasharray: 526.24, 2300;
+  }
+  100% {
+    stroke-dasharray: 526.24, 2300;
+  }
+}

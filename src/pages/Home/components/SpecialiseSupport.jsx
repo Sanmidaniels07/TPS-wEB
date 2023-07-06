@@ -16,7 +16,7 @@ export default function SpecialiseSupport() {
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                     {/* item 1 */}
                     <div className="flex flex-col space-y-3 text-left md:my-5  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
-                        <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" class="h-14 w-14 md:h-2- md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" />
+                        <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" class="h-14 w-14 md:h-20 md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" />
                         <p className="text-xl md:text-2xl font-semibold">
                             Backup & Recovery
                         </p>
@@ -101,7 +101,7 @@ export default function SpecialiseSupport() {
                 <div className="flex flex-col items-center mt-28 space-y-10 my-20 mx-auto md:space-y-0 md:space-x-16 md:flex-row">
                     <img src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/AdobeStock_43603761-1024x686.jpeg" class='w-full h-auto md:w-1/2 md:mb-0 object-center object-cover md:aspect-ratio-square md:h-full' />
 
-                    <div className="flex flex-col space-y-6 text-left">
+                    <div className="flex flex-col space-y-4 text-left">
                         <div className="text-gray-500 text-lg">Why Choose CIS</div>
                         <h3 className="text-2xl font-bold text-left md:text-4xl">
                             A Forward-Thinking Managed IT Services Provider
