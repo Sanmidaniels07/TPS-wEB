@@ -44,30 +44,30 @@ export default function Hero() {
         </div>
 
         {/* hero features */}
-        <div className="grid grid-cols-2 py-6 px-6 md:px-14 items-center md:flex flex-row border-t-2 border-sky-800 md:space-y-0 md:space-x-20 md:justify-evenly">
+        <div className="grid grid-cols-2 text-xs py-6 px-6 md:px-14 items-center md:text-lg md:flex flex-row border-t-2 border-sky-800 md:space-y-0 md:space-x-20 md:justify-evenly">
             {/* item 1 */}
-            <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white">
-                <FaBasketballBall className="text-sky-700 h-5 w-5 md:h-8 md:w-8"/>
-                <p>Worldwide Support</p>
+            <div className="flex-row items-center my-3 hidden md:flex md:my-0 space-x-2 md:space-x-5 text-white">
+            <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg"/>
+                <p>Est. 1989</p>
             </div>
 
              {/* item 2 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white ">
-               <AiOutlineSound className="text-sky-700 h-5 w-5 md:h-8 md:w-8"/> <p>Est. 1989</p>
+             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg"/> <p>Worldwide Support</p>
             </div>
 
              {/* item 3 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white">
-               <FaUsers className="text-sky-700 h-5 w-5 md:h-8 md:w-8"/> <p>Team of Expert</p>
+             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg"/> <p>Team of Expert</p>
             </div>
 
              {/* item 4 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white ">
-                <FaCloudflare className="text-sky-700 h-5 w-5 md:h-8 md:w-8"/> <p>Cloud Services</p>
+             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg"/> <p>Cloud Services</p>
             </div>
              {/* item 5 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2  md:space-x-5 text-white">
-               <FaCreativeCommonsZero className="text-sky-700 h-5 w-5 md:h-8 md:w-8"/> <p>Expert Solutions</p>
+             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg"/> <p>Expert Solutions</p>
             </div>
         </div>
       </div>

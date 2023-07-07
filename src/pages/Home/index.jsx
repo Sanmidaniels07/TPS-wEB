@@ -13,7 +13,7 @@ const Home = () => {
 const [showCookies, setShowCookies] = useState(true)
 
   return (
-    <div>
+    <div className='relative'>
       <TopMostInfo />
       <Hero />
       <SpecialiseSupport />

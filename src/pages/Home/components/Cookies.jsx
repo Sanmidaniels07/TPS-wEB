@@ -7,7 +7,7 @@ const Cookies = ({ onclick, showCookie }) => {
   return (
 
     showCookie ? (
-      <section id="cookies" className='sticky bottom-0 left-0 hodden right-0 z-50' >
+      <section id="cookies" className='left-0 top-80  right-0 fixed' >
         <div className='max-w-7xl mx-auto p-6 space-y-6'>
           <div className='flex flex-col h-70 p-10 mt-20 space-y-4 justify-center items-center bg-white rounded-sm shadow-lg'>
             <div className='flex flex-row mr-auto'>
