@@ -4,6 +4,8 @@ import SuccessStories from './components/SuccessStories'
 import SpecialiseSupport from './components/SpecialiseSupport'
 import Cookies from './components/Cookies'
 import NewsBlog from './components/NewsBlog'
+import GetinTouch from './components/GetinTouch'
+import Partners from './components/Partners'
 
 const Home = () => {
   return (
@@ -13,7 +15,9 @@ const Home = () => {
       <SpecialiseSupport/>
       <SuccessStories />
       <NewsBlog/>
-      <Cookies/>
+      <Partners/>
+      <GetinTouch/>
+      {/* <Cookies/> */}
     </div>
   )
 }

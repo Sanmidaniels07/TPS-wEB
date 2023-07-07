@@ -9,7 +9,7 @@ export default function Hero() {
     <section id="hero">
       <Navbar />
       <div className="bg-black bg-opacity-70  min-h-screen ">
-        <div className="flex flex-col py-40 px-6 md:px-14 text-left md:flex-row space-x-10">
+        <div className="flex flex-col py-60 px-6 md:px-14 text-left md:flex-row space-x-10">
           <div className="md:pr-48">
             <p className="text-sky-400 mb-10 font-semibold">
               Making I.T Work Smarter For Your Business
