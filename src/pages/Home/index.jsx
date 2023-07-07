@@ -7,6 +7,7 @@ import NewsBlog from './components/NewsBlog'
 import GetinTouch from './components/GetinTouch'
 import Partners from './components/Partners'
 import Footer from './components/Footer'
+import './home.css'
 
 const Home = () => {
   return (

@@ -17,7 +17,7 @@ const SuccessStories = () => {
             stories.map((item, index) => {
               const {image, name, title} = item;
               return (
-                <div key={index} className="group h-72 item md:h-80 lg:h-96">
+                <div key={index} className="item group h-72 item md:h-80 lg:h-96 cursor-pointer">
                   <img src={image} alt={name} 
                     className="w-full h-full rounded-sm group-hover:scale-125 group-hover:duration-[4s]" 
                   />

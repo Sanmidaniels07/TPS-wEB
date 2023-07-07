@@ -1,3 +1,7 @@
+.nav-link{
+  @apply text-base font-medium text-white group-hover:text-primary transition-colors flex items-center gap-1;
+}
+
 #hero {
   background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/03/laptop-1024x681.jpeg");
   background-repeat: no-repeat;
@@ -10,19 +14,14 @@
     background-size: center;
   }
 }
-.item {
+.item{
   @apply relative w-full cursor-pointer overflow-hidden;
 }
-.item-gradient {
+.item-gradient{
   @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-primary-dark opacity-60 group-hover:transition-colors group-hover:duration-[4s] group-hover:opacity-80;
 }
 .item-gradient:hover {
-  background: linear-gradient(
-    90deg,
-    rgba(3, 20, 41, 0.75) 0,
-    rgba(3, 20, 41, 0.25) 50%,
-    rgba(3, 20, 41, 0.25)
-  );
+  background: linear-gradient(90deg,rgba(3,20,41,.75) 0,rgba(3,20,41,.25) 50%,rgba(3,20,41,.25));
 }
 
 #ealhs729faa21 {
