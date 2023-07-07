@@ -3,7 +3,7 @@ import cookie from '../../../images/cookie.png'
 
 const Cookies = () => {
   return (
-    <section className='bg-white sticky bottom-0 left-0 right-0 z-50'>
+    <section className='sticky bottom-0 left-0 right-0 z-50'>
         <div className='max-w-7xl mx-auto p-6 space-y-6'>
         <div className='flex flex-col h-70 p-10 mt-20 space-y-4 justify-center items-center bg-white rounded-sm shadow-lg'>
           <div className='flex flex-row mr-auto'>

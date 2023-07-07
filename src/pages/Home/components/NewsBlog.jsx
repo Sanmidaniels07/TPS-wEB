@@ -9,12 +9,12 @@ import blog5 from '../../../images/blog5.png'
 
 const NewsBlog = () => {
   return (
-    <section className="bg-white">
+    <section>
       <div className="container mx-auto justify-center items-center max-w-7xl p-6 space-y-6">
         {/* newsblog container */}
         <div>
           <div className="mr-auto">
-            <h6 className=" ">Latest News & Blog</h6>
+            <h6 className="text-gray-700 ">Latest News & Blog</h6>
           </div>
           <div className="flex flex-col mx-auto">
             <div className="flex flex-col justify-between sm:flex-row mb-5">
@@ -93,7 +93,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">Best Office Communication Systems</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-2 group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
             
@@ -104,7 +104,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">What does an IT support company do?</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-2 group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
             
@@ -115,7 +115,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">What is an IT audit? The definitive guide</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-2 group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
             
@@ -126,7 +126,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">Disaster Recovery Plan Guidelines</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-2 group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
             
@@ -137,7 +137,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">Vipre? Edge Defence Security Solution</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-2 group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
             
