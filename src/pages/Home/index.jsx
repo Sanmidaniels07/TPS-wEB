@@ -4,20 +4,24 @@ import SuccessStories from './components/SuccessStories'
 import SpecialiseSupport from './components/SpecialiseSupport'
 import Cookies from './components/Cookies'
 import NewsBlog from './components/NewsBlog'
-import GetinTouch from './components/GetinTouch'
 import Partners from './components/Partners'
+import Footer from './components/Footer'
+import './home.css'
+import { useState } from 'react'
 
 const Home = () => {
+const [showCookies, setShowCookies] = useState(true)
+
   return (
     <div>
       <TopMostInfo />
       <Hero />
-      <SpecialiseSupport/>
+      <SpecialiseSupport />
       <SuccessStories />
-      <NewsBlog/>
-      <Partners/>
-      <GetinTouch/>
-      {/* <Cookies/> */}
+      <NewsBlog />
+      <Partners />
+      <Footer />
+      <Cookies onclick={() => setShowCookies(false)} showCookie={showCookies} />
     </div>
   )
 }

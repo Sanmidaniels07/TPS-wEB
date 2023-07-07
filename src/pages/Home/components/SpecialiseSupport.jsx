@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaDatabase, FaCloudUploadAlt, FaComments, FaAtlassian } from "react-icons/fa";
 
 export default function SpecialiseSupport() {
     return (
