@@ -25,11 +25,11 @@ const Footer = () => {
 
       <div className="container flex flex-col overflow-hidden space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
       {/* footer global container */}
-      <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
+      <div className="max-w-7xl mx-auto  py-10 space-y-6 ">
         {/* footer flex box */}
         <div className="flex flex-col md:flex-row overflow-hidden py-5 space-x-28 ">
           {/* border box */}
-          <div className="box-border h-60 w-72  p-4 flex border-2 border-blue-400 border-opacity-40 rounded-sm">
+          <div className="box-border h-60 w-72 mx-auto  p-4 flex border-2 border-blue-400 border-opacity-40 rounded-sm">
             <div className="mt-4 px-4">
               <h3 href="#" className="text-blue-400 font-sans">
                 Support
@@ -76,8 +76,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
+
           {/* second flex-container */}
-          <div className="flex flex-col">
+          <div className="flex flex-col py-10">
             <div>
               <h4 className="text-blue-400 font-semibold font-sans mb-2">
                 Services
