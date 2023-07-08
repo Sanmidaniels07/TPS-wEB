@@ -114,13 +114,18 @@ const Navbar = () => {
           </svg>
         </a>
 
-        <ul className='hidden items-center gap-8 lg:flex h-full'>
+        <ul className='hidden items-center gap-6 lg:flex'>
           {
             navlinks.map((item, index) => {
               const {link, submenu, sublink} = item;
               return (
                 <li key={index} className='group'>
-                  <a href="#" className='text-base font-medium text-white group-hover:text-primary transition'>{link}</a>
+                  <a href="#" className='nav-link'>
+                    {link}
+                    {
+                      submenu && <span className='w-2 h-[2px] mt-1 ml-1 bg-primary100'></span>
+                    }
+                  </a>
                   {
                     submenu && <Dropdown link={sublink} />
                   }
@@ -286,7 +291,7 @@ const MobileNav = ({close}) => {
 
 const Dropdown = ({ link }) => {
   return (
-    <div>
+    <div className='hover-block'>
       <div className="w-full hidden group-hover:block bg-white z-20 py-20 absolute top-36 left-0">
         <div className="w-[80%] m-auto flex items-center flex-wrap gap-x-10 gap-y-12">
           {
