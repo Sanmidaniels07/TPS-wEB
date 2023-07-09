@@ -14,7 +14,7 @@ export default function SpecialiseSupport() {
                 {/* services */}
                 <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
                     {/* item 1 */}
-                    <div className="flex flex-col space-y-3 text-left md:my-5  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
+                    <div className="flex flex-col space-y-3 text-left md:my-5 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
                         <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" class="h-14 w-14 md:h-20 md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/database.svg" />
                         <p className="text-xl md:text-2xl font-semibold">
                             Backup & Recovery
@@ -30,7 +30,7 @@ export default function SpecialiseSupport() {
                     </div>
 
                     {/* item 2 */}
-                    <div className="flex flex-col md:my-5  space-y-3 text-left  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
+                    <div className="flex flex-col md:my-5  space-y-3 text-left  px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
                         <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/cloud.svg" class="h-14 w-14 md:h-2- md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/cloud.svg" />
                         <p className="text-xl md:text-2xl font-semibold">
                             Cloud Solutions
@@ -46,7 +46,7 @@ export default function SpecialiseSupport() {
                     </div>
 
                     {/* item 3 */}
-                    <div className="flex flex-col md:my-5 space-y-3 text-left  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
+                    <div className="flex flex-col md:my-5 space-y-3 text-left  px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
                         <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/callouts.svg" class="h-14 w-14 md:h-2- md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/callouts.svg" />
                         <p className="text-xl md:text-2xl font-semibold">
                             Communications
@@ -62,7 +62,7 @@ export default function SpecialiseSupport() {
                     </div>
 
                     {/* item 4 */}
-                    <div className="flex flex-col md:my-5  space-y-3 text-left  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
+                    <div className="flex flex-col md:my-5  space-y-3 text-left  px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
                         <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/shield.svg" class="h-14 w-14 md:h-2- md:w-20 lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/shield.svg" />                        <p className="text-xl md:text-2xl font-semibold">
                             Cyber Security Services
                         </p>
@@ -77,7 +77,7 @@ export default function SpecialiseSupport() {
                     </div>
 
                     {/* item 5 */}
-                    <div className="flex flex-col md:my-5  space-y-3 text-left  bg-slate-100 px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
+                    <div className="flex flex-col md:my-5  space-y-3 text-left  px-7 py-10 border-2 border-sky-100 duration-200 transition-colors hover:border-sky-400 rounded-lg">
                         <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/lifering.svg" class="h-14 w-14 md:h-2- md:w-20 lazyloaded" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/themes/cis/dist/images/icons/backdrop-set/lifering.svg" />
                         <p className="text-xl md:text-2xl font-semibold">
                             IT Support and consultancy services

@@ -13,7 +13,7 @@ const Footer = () => {
             Looking to expand or protect your IT infrastructure? Discover how we can make IT work smarter for your business.
           </p>
 
-          <div className="rounded-full w-40 md:w-72 py-2 border-2 border-sky-400 text-center hover:bg-sky-400 duration-500 text-white">
+          <div className="rounded-full w-40 md:w-52 py-2 border-2 border-sky-400 text-center hover:bg-sky-400 duration-500 text-white">
             Make an Enquiry
           </div>
         </div>
