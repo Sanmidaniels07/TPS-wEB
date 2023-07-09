@@ -2,10 +2,30 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 h-screen w-full ">
-      <div className="container flex flex-col overflow-hidden space-y-6 p-6 max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
+    <footer className="bg-slate-950 min-h-screen w-full ">
+      {/* get in touch */}
+
+      <div className="flex flex-col py-20 px-6 md:px-14 md:flex-row md:space-x-10">
+        {/*section text */}
+        <div className="flex flex-col space-y-6">
+          <h3 className="font-bold text-3xl text-white text-left">Get in Touch</h3>
+          <p className="text-white text-xl text-left">
+            Looking to expand or protect your IT infrastructure? Discover how we can make IT work smarter for your business.
+          </p>
+
+          <div className="rounded-full w-40 md:w-72 py-2 border-2 border-sky-400 text-center hover:bg-sky-400 duration-500 text-white">
+            Make an Enquiry
+          </div>
+        </div>
+
+        <div className="w-3/4">
+
+        </div>
+      </div>
+
+      <div className="container flex flex-col overflow-hidden space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
       {/* footer global container */}
-      <div className="max-w-7xl mx-auto p-6 space-y-6 ">
+      <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
         {/* footer flex box */}
         <div className="flex flex-col md:flex-row overflow-hidden py-5 space-x-28 ">
           {/* border box */}

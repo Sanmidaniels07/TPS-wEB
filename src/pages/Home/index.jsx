@@ -8,13 +8,16 @@ import GetinTouch from './components/GetinTouch'
 import Partners from './components/Partners'
 import Footer from './components/Footer'
 import './home.css'
+import { useState } from 'react'
 
 const Home = () => {
+const [showCookies, setShowCookies] = useState(true)
+
   return (
-    <div>
+    <div className='relative'>
       <TopMostInfo />
       <Hero />
-      <SpecialiseSupport/>
+      <SpecialiseSupport />
       <SuccessStories />
       <NewsBlog/>
       <Partners/>
