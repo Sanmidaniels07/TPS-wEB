@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { FaBars, FaPlus, FaDatabase } from "react-icons/fa"
+import { FaBars, FaDatabase } from "react-icons/fa"
 import { CgSearch } from "react-icons/cg"
 import { VscChromeClose } from 'react-icons/vsc'
 import { PiCaretDownBold, PiCaretUpBold } from "react-icons/pi"
@@ -105,6 +105,8 @@ const Navbar = () => {
   const openNavbar = () => setNavbar(true);
   const closeNavbar = () => setNavbar(false);
 
+  const [openForm, setOpenForm] = useState(false);
+
   return (
     <header className="relative z-40 bg-black bg-opacity-70">
       <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-transparent text-white hover:bg-black border-b-2 border-b-primary h-36'>
@@ -114,40 +116,61 @@ const Navbar = () => {
           </svg>
         </a>
 
-        <ul className='hidden items-center gap-6 lg:flex'>
-          {
-            navlinks.map((item, index) => {
-              const {link, submenu, sublink} = item;
-              return (
-                <li key={index} className='group'>
-                  <a href="#" className='nav-link'>
-                    {link}
-                    {
-                      submenu && <span className='w-2 h-[2px] mt-1 ml-1 bg-primary100'></span>
-                    }
-                  </a>
-                  {
-                    submenu && <Dropdown link={sublink} />
-                  }
-                </li>
-              )
-            })
-          }
-        </ul>
+        <ul className="hidden lg:flex items-center gap-6">
+        {
+          navlinks.map((items, index) => {
+            const { link, submenu, sublink } = items;
+            return (
+              <li className='group' key={index}>
+                {
+                  submenu ? <div>
+                    <div className="md:cursor-pointer group">
+                      <p className='flex justify-between items-center group font-medium text-white hover:text-primary100 py-12  md:pr-0 pr-5 group text-base'>
+                        {link}
+                        <svg class="ml-1 mt-1" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                          <g fill="none" fill-rule="evenodd" stroke="#49a8ff" stroke-linecap="square" stroke-width="2"> 
+                            <path class="c-mega-menu-line origin-center" d="m5.251465 1.102051v7"></path> 
+                            <path d="m8.751465 4.602051h-7"></path> 
+                          </g> 
+                        </svg>
+                      </p>
+                      {
+                        submenu && <Dropdown link={sublink} />
+                      }
+                    </div>
+                  </div>
+                    : 
+                    <a href="#" className='text-white font-medium hover:text-primary100 text-base'>
+                      {link}
+                    </a>
+                }
+              </li>
+            )
+          })
+        }
+      </ul>
 
-        <div className="flex items-center gap-8">
-          <div className="hidden items-center gap-2 sm:flex">
-            <button className="flex items-center justify-center bg-transparent border border-primary p-3 rounded-full hover:cursor-pointer hover:bg-primary100 transition">
-              <CgSearch size={20} />
-            </button>
-            <button className="bg-transparent border-2 px-8 py-2 border-primary100 rounded-full transition hover:cursor-pointer hover:bg-sky-500">
-              Get in touch
-            </button>
-          </div>
-          <div className="block cursor-pointer lg:hidden" onClick={openNavbar}>
-            <FaBars size={23} />
-          </div>
+      <div className="flex items-center gap-6">
+        <div className="hidden sm:flex items-center ml-auto lg:ml-0"> 
+        <div className="relative mr-4">
+          <form role="search" method="get" id="searchform" className={`${openForm ? 'is-active nav-form' : 'overflow-hidden nav-form scale-x-0'}`}> 
+            <input placeholder="Type search here" type="text" value="" name="s" id="s" required="" className='bg-white border-[3px] border-primary100 outline-primary100 rounded-full pl-4 pr-8 h-10' /> 
+            <input className="hidden" type="submit" value="Search" /> 
+          </form> 
+          <div className={`${openForm ? 'search-icon bg-primary100' : 'search-icon hidden sm:block hover:bg-primary100'}`} onClick={() => setOpenForm(true)}> 
+            <CgSearch size={18} />
+          </div> 
+        </div> 
+        <a href="#" className="border-2 border-primary100 px-5 py-2 rounded-3xl text-sm text-white lg:text-sm hover:bg-primary100">
+          Get in touch
+        </a> 
+      </div>
+
+      <div className="cursor-pointer lg:hidden" onClick={openNavbar}>
+        <FaBars size={23} />
+      </div>
         </div>
+      
         {/* Mobile Menu */}
         {navbar && <MobileNav close={closeNavbar} />}
       </nav>
@@ -160,7 +183,7 @@ export default Navbar
 const MobileNav = ({close}) => {
   const [dropdown, setDropdown] =  useState(false);
   return (
-    <div className="bg-[#1e1e1e] w-full min-h-screen fixed top-0 left-0 right-0 lg:hidden transition-all duration-700">
+    <div className="bg-[#1e1e1e] w-full min-h-screen fixed top-0 left-0 right-0 lg:hidden transition-all duration-700 z-[80]">
       <div className="flex items-center justify-between py-3 px-5">
       <a href="#">
           <svg className="text-white w-24" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
@@ -176,7 +199,7 @@ const MobileNav = ({close}) => {
       <ul className='my-6'>
         <li className='w-full border-b border-b-neutral-200 py-3 px-6 mb-3' onClick={() => setDropdown(!dropdown)}>
           <div className="flex items-center justify-between">
-            <a href="#" className='text-lg font-semibold text-white'>Services</a>
+            <p className='text-lg font-semibold text-white'>Services</p>
             <span className='cursor-pointer text-primary'>
               {
                 dropdown ? <PiCaretUpBold size={20} /> : <PiCaretDownBold size={20} />
@@ -234,7 +257,7 @@ const MobileNav = ({close}) => {
         </li>
         <li className='w-full border-b border-b-neutral-200 py-3 px-6 mb-3' onClick={() => setDropdown(!dropdown)}>
           <div className="flex items-center justify-between">
-            <a href="#" className='text-lg font-semibold text-white'>Challenges</a>
+            <p className='text-lg font-semibold text-white'>Challenges</p>
             <span className='cursor-pointer text-primary'>
             {
               dropdown ? <PiCaretUpBold size={20} /> : <PiCaretDownBold size={20} />
@@ -289,16 +312,17 @@ const MobileNav = ({close}) => {
   )
 }
 
-const Dropdown = ({ link }) => {
+const Dropdown = ({link}) => {
   return (
-    <div className='hover-block'>
-      <div className="w-full hidden group-hover:block bg-white z-20 py-20 absolute top-36 left-0">
-        <div className="w-[80%] m-auto flex items-center flex-wrap gap-x-10 gap-y-12">
+    <div className='hover:md:block'>
+      <div className="absolute top-31 left-0 hidden group-hover:md:block w-full bg-white">
+        <ul className="bg-white pt-20 pb-24 flex items-center flex-wrap mx-auto gap-x-10 gap-y-12 w-[80%]">
           {
             link.map((item, index) => {
               const {image, title, text, icon} = item;
               return (
-                <div className="flex flex-col items-start basis-[22rem] space-y-3 cursor-pointer" key={index}>
+                <li key={index} className='basis-[22rem]'>
+                  <a href="#" className='flex flex-col items-start space-y-3'>
                   {
                     image && <img src={image} className='w-10 h-auto' alt="" />
                   }
@@ -307,11 +331,12 @@ const Dropdown = ({ link }) => {
                   }
                   <h4 className='text-xl text-slate-900 font-bold'>{title}</h4>
                   <p className='text-base text-slate-700 font-normal'>{text}</p>
-                </div>
+                  </a>
+                </li>
               )
             })
           }
-        </div>
+        </ul>
       </div>
     </div>
   )

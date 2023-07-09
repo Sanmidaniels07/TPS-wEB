@@ -1,5 +1,22 @@
-.nav-link{
-  @apply text-base font-medium text-white group-hover:text-primary transition-colors flex items-center gap-1;
+.nav-form{
+  transform-origin: right;
+  transition: all .3s cubic-bezier(0,1,1,1);
+  @apply absolute right-0 z-10;
+}
+.is-active{
+  @apply overflow-visible scale-x-100;
+}
+.nav-form.is-active .search-icon{
+  @apply bg-primary100;
+}
+.search-icon{
+  @apply relative flex items-center justify-center rounded-full border-2 border-primary100 cursor-pointer w-10 h-10 text-white duration-300 z-20;
+}
+.transition-ease{
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s;
+  transition-property: all;
 }
 
 #hero {

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SuccessStory = () => {
+const SuccessStories = () => {
   return (
     <div>index</div>
   )
 }
 
-export default SuccessStory
+export default SuccessStories
