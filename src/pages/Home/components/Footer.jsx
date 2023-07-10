@@ -23,13 +23,13 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container flex flex-col overflow-hidden space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
+      <div className="container space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
       {/* footer global container */}
-      <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
+      <div className="max-w-7xl flex flex-col flex-wrap justify-between md:flex-row mx-auto p-6 py-10 space-y-6 ">
         {/* footer flex box */}
-        <div className="flex flex-col md:flex-row overflow-hidden py-5 space-x-28 ">
+        <div className="flex flex-col md:flex-row lg:flex-col overflow-hidden py-5 space-x-28 ">
           {/* border box */}
-          <div className="box-border h-60 w-72  p-4 flex border-2 border-blue-400 border-opacity-40 rounded-sm">
+          <div className="md:box-content box-border h-60 w-72  p-4 flex  border-2 border-blue-400 border-opacity-40 rounded-sm">
             <div className="mt-4 px-4">
               <h3 href="#" className="text-blue-400 font-sans">
                 Support
@@ -39,7 +39,7 @@ const Footer = () => {
               </p>
               {/* button */}
               <div className="mt-8">
-                <button className="text-white inline-flex flex-row  items-center rounded-full p-1 border mr-6 border-blue-600 w-48 h-12 hover:bg-blue-400">
+                <button className="text-white inline-flex flex-row  items-center rounded-full p-1 border-2 mr-6 border-sky-400 w-48 h-12 hover:bg-blue-400">
                   <div className="py-2 pl-4">Remote Support </div>
                   <div>
                     <svg
@@ -76,7 +76,10 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          </div>
+
           {/* second flex-container */}
+          <div className="flex flex-col justify-between gap-3 md:gap-10 md:flex-row">
           <div className="flex flex-col">
             <div>
               <h4 className="text-blue-400 font-semibold font-sans mb-2">
@@ -172,9 +175,9 @@ const Footer = () => {
           </div>
 
           {/* third flex-container */}
-          <div className="flex flex-col">
+          <div className="flex flex-col mb-0 md:mb-0">
             <div>
-              <h4 className="text-blue-400 font-semibold font-sans mb-2">
+              <h4 className="text-blue-400 font-semibold font-sans">
                 Get in touch
               </h4>
               <div className="my-2">
@@ -276,7 +279,7 @@ const Footer = () => {
                 <input
                   type="text"
                   placeholder="Email address"
-                  className="px-4 mr-6 rounded-full"
+                  className="px-4 md:mr-6 rounded-full border-2 border-sky-400"
                 />
                 <div>
                   <svg
@@ -377,8 +380,25 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+        </div>
+      </div>
+      </div>
+
+      <div className="flex flex-col justify-between md:flex-row max-w-7xl mx-auto p-6 py-10 space-y-6">
+        <div className="text-gray-500">
+          <h4 className="text-sm leading-5">©Copyright 2023 CIS Ltd.</h4>
+          <p className="text-xs leading-5 max-w-xl mx-auto">This site is protected by reCAPTCHA</p>
+           <p className="text-xs leading-5 max-w-xl mx-auto"> The Google Privacy Policy and Terms of Service apply.</p>
+        </div>
+        <div className="text-gray-500 justify-between">
+          <div className="flex flex-col md:flex-row gap-3">
+          <p>Privacy</p>
+          <p>cookie Policy</p>
+          <p>Terms and Conditions</p>
           </div>
         </div>
+
+        <div className="text-gray-500 text-sm">Website by code23_</div>
       </div>
     </footer>
   );

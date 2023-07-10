@@ -16,6 +16,7 @@ const NewsBlog = () => {
           <div className="mr-auto">
             <h6 className="text-gray-700 ">Latest News & Blog</h6>
           </div>
+
           <div className="flex flex-col mx-auto">
             <div className="flex flex-col justify-between sm:flex-row mb-5">
               <h2 className="text-3xl font-bold leading-tight mb-15 sm:mb-0">
@@ -23,7 +24,7 @@ const NewsBlog = () => {
               </h2>
               <div className="flex">
                 <svg
-                  class="rotate-180 mr-10 prev-button cursor-pointer slick-arrow"
+                  class="rotate-180 mr-2 prev-button cursor-pointer slick-arrow"
                   height="45"
                   viewBox="0 0 44 45"
                   width="44"
@@ -85,7 +86,7 @@ const NewsBlog = () => {
           </div>
 
             {/* image flex container */}
-            <div className="item-container">
+            <div className="item-container inline-block">
                 {/* image 1 */}
             <div className="group relative rounded mb-30 overflow-hidden md:w-1/4">
             <img src={blog1} alt="" className="w-full h-60 object-cover object-center" />
@@ -146,6 +147,7 @@ const NewsBlog = () => {
            
            
         </div>
+        
       </div>
     </section>
   );
