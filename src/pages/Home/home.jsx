@@ -4,6 +4,10 @@ import SuccessStories from './components/SuccessStories'
 import SpecialiseSupport from './components/SpecialiseSupport'
 import Cookies from './components/Cookies'
 import NewsBlog from './components/NewsBlog'
+<<<<<<< HEAD:src/pages/Home/index.jsx
+=======
+
+>>>>>>> 9178f5b6ea76bd9fd84758199a02ae25a3ceaccd:src/pages/Home/home.jsx
 import Partners from './components/Partners'
 import Footer from './components/Footer'
 import './home.css'

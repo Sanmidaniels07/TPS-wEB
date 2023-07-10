@@ -1,9 +1,9 @@
 import React from 'react'
 
-const index = () => {
+const ContactUs = () => {
   return (
     <div>index</div>
   )
 }
 
-export default index
+export default ContactUs

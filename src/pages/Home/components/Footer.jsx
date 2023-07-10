@@ -13,7 +13,7 @@ const Footer = () => {
             Looking to expand or protect your IT infrastructure? Discover how we can make IT work smarter for your business.
           </p>
 
-          <div className="rounded-full w-40 md:w-72 py-2 border-2 border-sky-400 text-center hover:bg-sky-400 duration-500 text-white">
+          <div className="rounded-full w-40 md:w-52 py-2 border-2 border-sky-400 text-center hover:bg-sky-400 duration-500 text-white">
             Make an Enquiry
           </div>
         </div>
@@ -25,11 +25,11 @@ const Footer = () => {
 
       <div className="container space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
       {/* footer global container */}
-      <div className="max-w-7xl flex flex-col flex-wrap justify-between md:flex-row mx-auto p-6 py-10 space-y-6 ">
+      <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
         {/* footer flex box */}
         <div className="flex flex-col md:flex-row lg:flex-col overflow-hidden py-5 space-x-28 ">
           {/* border box */}
-          <div className="md:box-content box-border h-60 w-72  p-4 flex  border-2 border-blue-400 border-opacity-40 rounded-sm">
+          <div className="box-border h-60 w-72  p-4 flex border-2 border-blue-400 border-opacity-40 rounded-sm">
             <div className="mt-4 px-4">
               <h3 href="#" className="text-blue-400 font-sans">
                 Support
@@ -76,10 +76,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          </div>
-
           {/* second flex-container */}
-          <div className="flex flex-col justify-between gap-3 md:gap-10 md:flex-row">
           <div className="flex flex-col">
             <div>
               <h4 className="text-blue-400 font-semibold font-sans mb-2">
