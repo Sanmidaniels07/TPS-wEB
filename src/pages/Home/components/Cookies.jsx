@@ -1,12 +1,10 @@
 import React from 'react'
 import cookie from '../../../images/cookie.png'
 
-const Cookies = ({ onclick, showCookie }) => {
-
-
+const Cookies = ({onclick, showCookies}) => {
   return (
-
-    showCookie ? (
+ 
+    showCookies ? (
       <section id="cookies" className='left-0 top-80  right-0 fixed' >
         <div className='max-w-7xl mx-auto p-6 space-y-6'>
           <div className='flex flex-col h-70 p-10 mt-20 space-y-4 justify-center items-center bg-white rounded-sm shadow-lg'>
@@ -22,25 +20,23 @@ const Cookies = ({ onclick, showCookie }) => {
                   By using CIS, you accept our use of cookies. <a href="#" className='underline text-blue-500 text-lg font-semi-bold'>Find out more</a> </p>
                 <a
                   onClick={onclick}
-                  href="'#"
+                  href="#"
                   className="mx-auto py-2 px-10  text-black text-lg bg-white rounded-full outline outline-blue-400 h-12 ml-2 mt-5 md:mt-0 hover:bg-blue-400"
-                >Agree</a
-                >
+                >Agree</a>
               </div>
 
             </div>
           </div>
         </div>
-
-      </section>)
-      :
-      (
-
-        <div></div>
-      )
-
-
+      </section>
+    )
+    : 
+    (
+      <div></div>
+    ) 
   )
 }
 
 export default Cookies
+
+

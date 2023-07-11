@@ -10,7 +10,7 @@ import './home.css'
 import { useState } from 'react'
 
 const Home = () => {
-const [showCookies, setShowCookies] = useState(true)
+  const [showCookie, setShowCookies] = useState(true)
 
   return (
     <div className='relative'>
@@ -18,10 +18,10 @@ const [showCookies, setShowCookies] = useState(true)
       <Hero />
       <SpecialiseSupport />
       <SuccessStories />
-      <NewsBlog/>
-      <Partners/>
-      <Footer/>
-      <Cookies/>
+      <NewsBlog />
+      <Partners />
+      <Footer />
+      <Cookies showCookies={showCookie} onclick={() => setShowCookies(false)} />
     </div>
   )
 }

@@ -316,7 +316,7 @@ const Dropdown = ({link}) => {
   return (
     <div className='hover:md:block'>
       <div className="absolute top-31 left-0 hidden group-hover:md:block w-full bg-white">
-        <ul className="bg-white pt-20 pb-24 flex items-center flex-wrap mx-auto gap-x-10 gap-y-12 w-[80%]">
+        <ul className="bg-white pt-20 pb-24 flex items-center flex-wrap mx-auto gap-x-10 gap-y-12 w-[85%]">
           {
             link.map((item, index) => {
               const {image, title, text, icon} = item;
