@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           </div>
           {/* second flex-container */}
-          <div className="flex flex-col mx-auto mt-4 md:mt-2 gap-12 justify-between md:flex-row w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-20">
+          <div className="flex flex-col mx-auto mt-4 md:mt-2 gap-14  md:flex-row w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-20 break-keep">
           <div className="flex flex-col sm:pl-10">
             <div>
               <h4 className="text-blue-400 font-semibold font-sans mb-2">
@@ -238,7 +238,7 @@ const Footer = () => {
               <div className="my-2">
                 <a
                   href="#"
-                  className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
+                  className="border-transparent border-b-2 text-blue-400 font-sans"
                 >
                   Birmingham
                 </a>

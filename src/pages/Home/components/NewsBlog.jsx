@@ -141,12 +141,11 @@ const NewsBlog = () => {
            <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
             </div>
             </div>
-            
-
            </div>
-           
-           
         </div>
+        <button className="px-8 py-3 rounded-full bg-transparent border-2 border-primary100 text-black font-normal text-lg hover:bg-primary100 hover:text-white hover:transition-colors hover:duration-300">
+          View Knowledge Hub
+        </button>
         
       </div>
     </section>
