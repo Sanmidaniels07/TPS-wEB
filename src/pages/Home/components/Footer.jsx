@@ -27,21 +27,25 @@ const Footer = () => {
       {/* footer global container */}
       <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
         {/* footer flex box */}
-        <div className="flex flex-col md:flex-row lg:flex-col overflow-hidden py-5 space-x-28 ">
+        <div className="flex flex-col flex-wrap md:flex-row py-55 md:space-x-28 ">
           {/* border box */}
-          <div className="box-border h-60 w-72  p-4 flex border-2 border-blue-400 border-opacity-40 rounded-sm">
-            <div className="mt-4 px-4">
-              <h3 href="#" className="text-blue-400 font-sans">
+          <div className="w-full sm:w-1/2 md:w-full lg:w-1/4">
+          <div className="p-4 border-2 border-sky-400 border-opacity-40 rounded-sm px-20 sm:px-30 lg:px15 xl:px-30 py-25 sm:py-35 lg:py-10 xl:py-35 mb-30">
+            <div className="flex flex-col md:flex-row lg:flex-col"></div>
+            <div className="flex flex-col justify-center w-full flex-grow md:w-auto md:pr-30 lg:w-full">
+              <h3 href="#" className="text-blue-400 font-sans mb-10">
                 Support
               </h3>
-              <p className="text-white mt-2">
+              <p className="text-white mb-30 md:mb-0 lg:mb-30 w-full inline-block">
                 Talking with an engineer? Access remote support
               </p>
+              </div>
+
               {/* button */}
               <div className="mt-8">
-                <button className="text-white inline-flex flex-row  items-center rounded-full p-1 border-2 mr-6 border-sky-400 w-48 h-12 hover:bg-blue-400">
-                  <div className="py-2 pl-4">Remote Support </div>
-                  <div>
+                <button className="text-white rounded-full border-2 border-sky-400 hover:bg-blue-400 flex flex-row sm:w-52 lg:w-auto">
+                  <div className="p-4 py-1">Remote Support</div>
+                  
                     <svg
                       class="next-button cursor-pointer slick-arrow"
                       height="40"
@@ -71,13 +75,13 @@ const Footer = () => {
                         ></path>
                       </g>
                     </svg>
-                  </div>
                 </button>
               </div>
-            </div>
+          </div>
           </div>
           {/* second flex-container */}
-          <div className="flex flex-col">
+          <div className="flex flex-col mx-auto mt-4 md:mt-2 gap-12 justify-between md:flex-row w-full sm:w-1/2 md:w-1/3 lg:w-1/4 mb-20">
+          <div className="flex flex-col sm:pl-10">
             <div>
               <h4 className="text-blue-400 font-semibold font-sans mb-2">
                 Services
@@ -377,6 +381,7 @@ const Footer = () => {
                 </a>
               </div>
             </div>
+        </div>
         </div>
       </div>
       </div>
