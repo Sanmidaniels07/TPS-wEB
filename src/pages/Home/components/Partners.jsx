@@ -12,7 +12,7 @@ const Partners = () => {
   return (
     <section className='w-4/5 py-4 lg:py-8 mx-auto'>
       <h4 className="text-center text-gray-600 font-medium text-lg capitalize">
-        Our partners, vendors &amp; certification
+        Our partners, vendors &amp; certification 
       </h4>
       <div className="flex flex-wrap justify-center gap-14 my-6 md:mt-12 md:mb-8">
         {
