@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="hero">
       <Navbar />
       <div className="bg-black bg-opacity-70 min-h-screen ">
-        <div className="flex flex-col py-52  text-left md:flex-row md:items-center">
+        <div className="flex flex-col py-52 overflow-hidden  text-left md:flex-row md:items-center">
           <div className="md:pr-48 px-6 md:pl-14 ">
             <p className="text-sky-400 mb-10 font-semibold">
               Making I.T Work Smarter For Your Business
