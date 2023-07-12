@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 //custom files
 import Home from "./pages/Home/home";
 import SuccessStory from "./pages/SuccessStories";
-import About from "./pages/About";
-import Blog from "./pages/Blog";
-import ContactUs from "./pages/ContactUs";
-import FAQs from "./pages/FAQs";
+import About from "./pages/about";
+import Blog from "./pages/blog";
+import ContactUs from "./pages/contactUs";
+import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Support from "./pages/Support";
 
