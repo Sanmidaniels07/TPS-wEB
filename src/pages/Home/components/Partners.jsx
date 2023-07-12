@@ -1,10 +1,10 @@
 import React from 'react'
-import censornet from '../../../images/Censornet-Gold-Partner-logo.webp'
-import cyberessential from '../../../images/cyberessentials_certification-mark.webp'
-import microsoft from '../../../images/micorsoft_silver_partner.webp'
-import rgb from '../../../images/RGB-White.png'
-import sophos from '../../../images/sophos_gold_partner.webp'
-import veenam from '../../../images/veeam_csp_silver.png'
+import censornet from '../../../assets/images/Censornet-Gold-Partner-logo.webp'
+import cyberessential from '../../../assets/images/cyberessentials_certification-mark.webp'
+import microsoft from '../../../assets/images/micorsoft_silver_partner.webp'
+import rgb from '../../../assets/images/RGB-White.png'
+import sophos from '../../../assets/images/sophos_gold_partner.webp'
+import veenam from '../../../assets/images/veeam_csp_silver.png'
 
 const companies = [microsoft, sophos, veenam, censornet, cyberessential,  rgb,]
 

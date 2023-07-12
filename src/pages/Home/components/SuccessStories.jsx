@@ -1,8 +1,8 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io"
-import accountancy from '../../../images/accountancy.webp'
-import jobskin from '../../../images/jobskin.webp'
-import stpauls from '../../../images/stpauls.webp'
+import accountancy from '../../../assets/images/accountancy.webp'
+import jobskin from '../../../assets/images/jobskin.webp'
+import stpauls from '../../../assets/images/stpauls.webp'
 
 const SuccessStories = () => {
   return (

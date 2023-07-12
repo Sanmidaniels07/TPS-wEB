@@ -1,9 +1,11 @@
 import React from "react";
-import blog1 from '../../../images/Blog1.png'
-import blog2 from '../../../images/blog2.png'
-import blog3 from '../../../images/blog3.png'
-import blog4 from '../../../images/blog4.png'
-import blog5 from '../../../images/blog5.png'
+import blog1 from '../../../assets/images/Blog1.png'
+import blog2 from '../../../assets/images/blog2.png'
+import blog3 from '../../../assets/images/blog3.png'
+import blog4 from '../../../assets/images/blog4.png'
+import blog5 from '../../../assets/images/blog5.png'
+
+
 
 
 
