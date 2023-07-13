@@ -4,6 +4,7 @@ import blog2 from '../../../images/blog2.png'
 import blog3 from '../../../images/blog3.png'
 import blog4 from '../../../images/blog4.png'
 import blog5 from '../../../images/blog5.png'
+import { Link } from "react-router-dom";
 
 
 
@@ -94,7 +95,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">Best Office Communication Systems</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b-2 group-hover:border-sky-500"> </div>
             </div>
             </div>
             
@@ -105,7 +106,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">What does an IT support company do?</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b-2 group-hover:border-sky-500"> </div>
             </div>
             </div>
             
@@ -116,7 +117,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">What is an IT audit? The definitive guide</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b-2 group-hover:border-sky-500"> </div>
             </div>
             </div>
             
@@ -127,7 +128,7 @@ const NewsBlog = () => {
             <h3 class="text-lg font-bold text-slate-950 mb-5">Disaster Recovery Plan Guidelines</h3>
             <div className="group">
             <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
+           <div className="mx-0 w-20 group-hover:border-b-2 group-hover:border-sky-500"> </div>
             </div>
             </div>
             
@@ -137,15 +138,17 @@ const NewsBlog = () => {
             <p class="text-blue-600 mb-4 mt-4 font-bold text-sm">17/02/2021</p>
             <h3 class="text-lg font-bold text-slate-950 mb-5">Vipre? Edge Defence Security Solution</h3>
             <div className="group">
-            <h4 href="#" className="text-slate-950 text-lg">Learn more</h4>
-           <div className="mx-0 w-20 group-hover:border-b group-hover:border-blue-800"> </div>
+            <h4 className="text-slate-950 text-lg">Learn more</h4>
+           <div className="mx-0 w-20 group-hover:border-b-2 group-hover:border-sky-500"> </div>
             </div>
             </div>
            </div>
         </div>
-        <button className="px-8 py-3 rounded-full bg-transparent border-2 border-primary100 text-black font-normal text-lg hover:bg-primary100 hover:text-white hover:transition-colors hover:duration-300">
+        <Link to='./knowledgeBase'>
+        <button className="px-8 py-3 mt-6 rounded-full bg-transparent border-2 border-primary100 text-black font-normal text-sm md:text-lg hover:bg-primary100 hover:text-white hover:transition-colors hover:duration-300 ">
           View Knowledge Hub
         </button>
+        </Link>
         
       </div>
     </section>

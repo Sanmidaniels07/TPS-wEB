@@ -8,6 +8,7 @@ import { LuMessagesSquare } from "react-icons/lu"
 import { TiSupport } from 'react-icons/ti'
 import { BsCloudDownloadFill } from 'react-icons/bs'
 import { IoIosArrowForward } from "react-icons/io"
+import {Link} from 'react-router-dom'
 
 
 const navlinks = [
@@ -292,22 +293,25 @@ const MobileNav = ({close}) => {
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
           <a href="#" className='text-lg font-semibold text-white'>About</a>
         </li>
+        
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <a href="#" className='text-lg font-semibold text-white'>Success Stories</a>
+          <Link to='./successStory'className='text-lg font-semibold text-white'>Success Stories</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <a href="#" className='text-lg font-semibold text-white'>Knowledge Base</a>
+          <Link to='./knowledgeBase' className='text-lg font-semibold text-white'>Knowledge Base</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <a href="#" className='text-lg font-semibold text-white'>Blog</a>
+          <Link to='./blog' className='text-lg font-semibold text-white'>Blog</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <a href="#" className='text-lg font-semibold text-white'>FAQs</a>
+          <Link to='./faqs' className='text-lg font-semibold text-white'>FAQs</Link>
         </li>
       </ul>
+      <Link to='./contactUs'>
       <button className="bg-transparent border-2 m-4 px-8 py-3 border-primary100 rounded-full transition hover:cursor-pointer hover:bg-sky-500">
         Get in touch
       </button>
+      </Link>
     </div>
   )
 }

@@ -21,7 +21,7 @@ const Cookies = ({onclick, showCookies}) => {
                 <a
                   onClick={onclick}
                   href="#"
-                  className="mx-auto py-2 px-10  text-black text-lg bg-white rounded-full outline outline-blue-400 h-12 ml-2 mt-5 md:mt-0 hover:bg-blue-400"
+                  className="mx-auto py-2 px-10  text-black text-lg bg-white rounded-full outline outline-blue-400 h-12 ml-2 mt-5 md:mt-0 hover:bg-sky-400 duration-200"
                 >Agree</a>
               </div>
 

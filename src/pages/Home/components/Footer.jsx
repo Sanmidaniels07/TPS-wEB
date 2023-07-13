@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="container space-y-6 p-6  max-w-7xl md:mx-auto border-b border-blue-400 border-opacity-40"></div>
+      <div className="container space-y-6 p-6  max-w-7xl md:mx-auto border-b border-sky-400 border-opacity-40"></div>
       {/* footer global container */}
       <div className="max-w-7xl mx-auto p-6 py-10 space-y-6 ">
         {/* footer flex box */}
@@ -43,8 +44,9 @@ const Footer = () => {
 
               {/* button */}
               <div className="mt-8">
-                <button className="text-white rounded-full border-2 border-sky-400 hover:bg-blue-400 flex flex-row sm:w-52 lg:w-auto">
-                  <div className="p-4 py-1">Remote Support</div>
+                <Link to='./support'>
+                <button className="text-white text-center rounded-full border-2 border-sky-400 hover:bg-blue-400 flex flex-row w-30 md:w-40 py-2">
+                  <div className="p-4 py-1 text-sm">Remote Support</div>
                   
                     <svg
                       class="next-button cursor-pointer slick-arrow"
@@ -76,6 +78,7 @@ const Footer = () => {
                       </g>
                     </svg>
                 </button>
+                </Link>
               </div>
           </div>
           </div>

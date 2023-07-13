@@ -1,5 +1,6 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io"
+import { Link } from 'react-router-dom'
 import accountancy from '../../../images/accountancy.webp'
 import jobskin from '../../../images/jobskin.webp'
 import stpauls from '../../../images/stpauls.webp'
@@ -36,9 +37,11 @@ const SuccessStories = () => {
             })
           }
         </div>
+        <Link to='./successStory'>
         <button className="px-8 py-3 rounded-full bg-transparent border-2 border-primary100 text-black font-normal text-lg hover:bg-primary100 hover:text-white hover:transition-colors hover:duration-300">
           More success stories
         </button>
+        </Link>
       </div>
     </section>
   )
