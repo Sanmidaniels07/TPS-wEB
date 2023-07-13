@@ -1,5 +1,5 @@
 import React from 'react'
-import cookie from '../../../images/cookie.png'
+import cookie from '../../../assets/images/cookie.png';
 
 const Cookies = ({onclick, showCookies}) => {
   return (

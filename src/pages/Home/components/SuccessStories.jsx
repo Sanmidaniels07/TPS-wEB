@@ -1,9 +1,9 @@
 import React from 'react'
 import { IoIosArrowForward } from "react-icons/io"
-import { Link } from 'react-router-dom'
-import accountancy from '../../../images/accountancy.webp'
-import jobskin from '../../../images/jobskin.webp'
-import stpauls from '../../../images/stpauls.webp'
+import accountancy from '../../../assets/images/accountancy.webp'
+import jobskin from '../../../assets/images/jobskin.webp'
+import stpauls from '../../../assets/images/stpauls.webp'
+import {Link} from 'react-router-dom'
 
 const SuccessStories = () => {
   return (
