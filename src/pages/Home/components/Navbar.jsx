@@ -8,7 +8,8 @@ import { LuMessagesSquare } from "react-icons/lu"
 import { TiSupport } from 'react-icons/ti'
 import { BsCloudDownloadFill } from 'react-icons/bs'
 import { IoIosArrowForward } from "react-icons/io"
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import TopMostInfo from './TopMostInfo'
 
 
 const navlinks = [
@@ -82,22 +83,27 @@ const navlinks = [
   {
     link: 'About',
     submenu: false,
+    to: '/about'
   },
   {
     link: 'Success stories',
     submenu: false,
+    to: '/success-stories'
   },
   {
     link: 'Knowledge base',
     submenu: false,
+    to: '/knowledge-base'
   },
   {
     link: 'Blog',
     submenu: false,
+    to: '/blog'
   },
   {
     link: 'FAQs',
     submenu: false,
+    to: '/faqs'
   }
 ]
 
@@ -109,73 +115,76 @@ const Navbar = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
-    <header className="relative z-40 bg-black bg-opacity-70">
-      <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-transparent text-white hover:bg-black border-b-2 border-b-primary h-36'>
-        <a href="#">
-          <svg className="text-white w-40" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
-            <Logo />
-          </svg>
-        </a>
+    <>
+      <TopMostInfo />
+      <header className="relative z-40 bg-black bg-opacity-70">
+        <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-transparent text-white hover:bg-black border-b-2 border-b-primary h-36'>
+          <Link to="/">
+            <svg className="text-white w-40" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
+              <Logo />
+            </svg>
+          </Link>
 
-        <ul className="hidden lg:flex items-center gap-6">
-        {
-          navlinks.map((items, index) => {
-            const { link, submenu, sublink } = items;
-            return (
-              <li className='group' key={index}>
-                {
-                  submenu ? <div>
-                    <div className="md:cursor-pointer group">
-                      <p className='flex justify-between items-center group font-medium text-white hover:text-primary100 py-12  md:pr-0 pr-5 group text-base'>
-                        {link}
-                        <svg class="ml-1 mt-1" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
-                          <g fill="none" fill-rule="evenodd" stroke="#49a8ff" stroke-linecap="square" stroke-width="2"> 
-                            <path class="c-mega-menu-line origin-center" d="m5.251465 1.102051v7"></path> 
-                            <path d="m8.751465 4.602051h-7"></path> 
-                          </g> 
-                        </svg>
-                      </p>
-                      {
-                        submenu && <Dropdown link={sublink} />
-                      }
+          <ul className="hidden lg:flex items-center gap-6">
+          {
+            navlinks.map((items, index) => {
+              const { link, submenu, sublink, to } = items;
+              return (
+                <li className='group' key={index}>
+                  {
+                    submenu ? <div>
+                      <div className="md:cursor-pointer group">
+                        <p className='flex justify-between items-center group font-medium text-white hover:text-primary100 py-12  md:pr-0 pr-5 group text-base'>
+                          {link}
+                          <svg class="ml-1 mt-1" height="10" viewBox="0 0 10 10" width="10" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="none" fill-rule="evenodd" stroke="#49a8ff" stroke-linecap="square" stroke-width="2"> 
+                              <path class="c-mega-menu-line origin-center" d="m5.251465 1.102051v7"></path> 
+                              <path d="m8.751465 4.602051h-7"></path> 
+                            </g> 
+                          </svg>
+                        </p>
+                        {
+                          submenu && <Dropdown link={sublink} />
+                        }
+                      </div>
                     </div>
-                  </div>
                     : 
-                    <a href="#" className='text-white font-medium hover:text-primary100 text-base'>
+                    <Link to={to} className='text-white font-medium hover:text-primary100 text-base'>
                       {link}
-                    </a>
-                }
-              </li>
-            )
-          })
-        }
-      </ul>
+                    </Link>
+                  }
+                </li>
+              )
+            })
+          }
+        </ul>
 
-      <div className="flex items-center gap-6">
-        <div className="hidden sm:flex items-center ml-auto lg:ml-0"> 
-        <div className="relative mr-4">
-          <form role="search" method="get" id="searchform" className={`${openForm ? 'is-active nav-form' : 'overflow-hidden nav-form scale-x-0'}`}> 
-            <input placeholder="Type search here" type="text" value="" name="s" id="s" required="" className='bg-white border-[3px] border-primary100 outline-primary100 rounded-full pl-4 pr-8 h-10' /> 
-            <input className="hidden" type="submit" value="Search" /> 
-          </form> 
-          <div className={`${openForm ? 'search-icon bg-primary100' : 'search-icon hidden sm:block hover:bg-primary100'}`} onClick={() => setOpenForm(true)}> 
-            <CgSearch size={18} />
+        <div className="flex items-center gap-6">
+          <div className="hidden sm:flex items-center ml-auto lg:ml-0"> 
+          <div className="relative mr-4">
+            <form role="search" method="get" id="searchform" className={`${openForm ? 'is-active nav-form' : 'overflow-hidden nav-form scale-x-0'}`}> 
+              <input placeholder="Type search here" type="text" value="" name="s" id="s" required="" className='bg-white border-[3px] border-primary100 outline-primary100 rounded-full pl-4 pr-8 h-10' /> 
+              <input className="hidden" type="submit" value="Search" /> 
+            </form> 
+            <div className={`${openForm ? 'search-icon bg-primary100' : 'search-icon hidden sm:block hover:bg-primary100'}`} onClick={() => setOpenForm(true)}> 
+              <CgSearch size={18} />
+            </div> 
           </div> 
-        </div> 
-        <a href="#" className="border-2 border-primary100 px-5 py-2 rounded-3xl text-sm text-white lg:text-sm hover:bg-primary100">
-          Get in touch
-        </a> 
-      </div>
-
-      <div className="cursor-pointer lg:hidden" onClick={openNavbar}>
-        <FaBars size={23} />
-      </div>
+          <Link to="/contact-us" className="border-2 border-primary100 px-5 py-2 rounded-3xl text-sm text-white lg:text-sm hover:bg-primary100">
+            Get in touch
+          </Link> 
         </div>
-      
-        {/* Mobile Menu */}
-        {navbar && <MobileNav close={closeNavbar} />}
-      </nav>
-    </header>
+
+        <div className="cursor-pointer lg:hidden" onClick={openNavbar}>
+          <FaBars size={23} />
+        </div>
+          </div>
+        
+          {/* Mobile Menu */}
+          {navbar && <MobileNav close={closeNavbar} />}
+        </nav>
+      </header>
+    </>
   )
 }
 
@@ -186,11 +195,11 @@ const MobileNav = ({close}) => {
   return (
     <div className="bg-[#1e1e1e] w-full min-h-screen fixed top-0 left-0 right-0 lg:hidden transition-all duration-700 z-[80]">
       <div className="flex items-center justify-between py-3 px-5">
-      <a href="#">
+      <Link to="/">
           <svg className="text-white w-24" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
             <Logo />
           </svg>
-        </a>
+        </Link>
 
         <span className='text-white hover:cursor-pointer' onClick={close}>
           <VscChromeClose size={30} />
@@ -211,46 +220,46 @@ const MobileNav = ({close}) => {
             dropdown && (
               <ul className={`${dropdown} ? 'flex flex-col space-y-5 my-6 mx-6' : 'hidden'`}>
                 <li>
-                  <a href="#" className='flex items-center gap-4 text-base font-normal'>
+                  <p className='flex items-center gap-4 text-base font-normal'>
                     <span className='text-gray-400'>
                       <BsCloudDownloadFill size={24} />
                     </span>
                     <span>Cloud Solutions</span>
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-4 text-base font-normal'>
+                  <p className='flex items-center gap-4 text-base font-normal'>
                     <span className='text-gray-400'>
                       <BiSolidShield size={24} />
                     </span>
                     <span>Cyber Security Services</span>
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-4 text-base font-normal'>
+                  <p className='flex items-center gap-4 text-base font-normal'>
                     <span className='text-gray-400'>
                       <LuMessagesSquare size={24} />
                     </span>
                     <span>Communications</span>
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-4 text-base font-normal'>
+                  <p className='flex items-center gap-4 text-base font-normal'>
                     <span className='text-gray-400'>
                       <TiSupport size={24} />
                     </span>
                     <span>IT Support and Services</span>
-                  </a>
+                  </p>
                 </li>
                 <li>
-                  <a href="#" className='flex items-center gap-4 text-base font-normal'>
+                  <p className='flex items-center gap-4 text-base font-normal'>
                     <span className='text-gray-400'>
                       <FaDatabase size={24} />
                     </span>
                     <span>
                       Backup and Recovery
                     </span>
-                  </a>
+                  </p>
                 </li>
               </ul>
             )
@@ -269,48 +278,47 @@ const MobileNav = ({close}) => {
             dropdown && (
               <ul className={`${dropdown} ? 'flex flex-col space-y-3 my-6 mx-6' : 'hidden'`}>
                 <li>
-                  <a href="#">Old, Slow and Useless!</a>
+                  <p>Old, Slow and Useless!</p>
                 </li>
                 <li>
-                  <a href="#">IT and ROI</a>
+                  <p>IT and ROI</p>
                 </li>
                 <li>
-                  <a href="#">IT and your Business Ambitions</a>
+                  <p>IT and your Business Ambitions</p>
                 </li>
                 <li>
-                  <a href="#">Disaster Recovery! What's that?</a>
+                  <p>Disaster Recovery! What's that?</p>
                 </li>
                 <li>
-                  <a href="#">Does IT Security Matter? The Importance of IT Security</a>
+                  <p>Does IT Security Matter? The Importance of IT Security</p>
                 </li>
                 <li>
-                  <a href="#">Small Issues which Create Big Problems</a>
+                  <p>Small Issues which Create Big Problems</p>
                 </li>
               </ul>
             )
           }
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <a href="#" className='text-lg font-semibold text-white'>About</a>
+          <Link to="/about" className='text-lg font-semibold text-white'>About</Link>
         </li>
         
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <Link to='./successStory'className='text-lg font-semibold text-white'>Success Stories</Link>
+          <Link to='/success-stories'className='text-lg font-semibold text-white'>Success Stories</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <Link to='./knowledgeBase' className='text-lg font-semibold text-white'>Knowledge Base</Link>
+          <Link to='/knowledge-base' className='text-lg font-semibold text-white'>Knowledge Base</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <Link to='./blog' className='text-lg font-semibold text-white'>Blog</Link>
+          <Link to='/blog' className='text-lg font-semibold text-white'>Blog</Link>
         </li>
         <li className='w-full border-b border-b-neutral-200 py-4 px-6 flex items-center justify-between mb-3'>
-          <Link to='./faqs' className='text-lg font-semibold text-white'>FAQs</Link>
+          <Link to='/faqs' className='text-lg font-semibold text-white'>FAQs</Link>
         </li>
       </ul>
-      <Link to='./contactUs'>
-      <button className="bg-transparent border-2 m-4 px-8 py-3 border-primary100 rounded-full transition hover:cursor-pointer hover:bg-sky-500">
+      
+      <Link to='/contact-us' className="bg-transparent border-2 m-4 px-8 py-3 border-primary100 rounded-full transition hover:cursor-pointer hover:bg-sky-500">
         Get in touch
-      </button>
       </Link>
     </div>
   )
@@ -326,16 +334,16 @@ const Dropdown = ({link}) => {
               const {image, title, text, icon} = item;
               return (
                 <li key={index} className='basis-[22rem]'>
-                  <a href="#" className='flex flex-col items-start space-y-3'>
-                  {
-                    image && <img src={image} className='w-10 h-auto' alt="" />
-                  }
-                  {
-                    icon && <span  className='text-primary100 text-2xl'>{icon}</span>
-                  }
-                  <h4 className='text-xl text-slate-900 font-bold'>{title}</h4>
-                  <p className='text-base text-slate-700 font-normal'>{text}</p>
-                  </a>
+                  <div className='flex flex-col items-start space-y-3'>
+                    {
+                      image && <img src={image} className='w-10 h-auto' alt="" />
+                    }
+                    {
+                      icon && <span  className='text-primary100 text-2xl'>{icon}</span>
+                    }
+                    <h4 className='text-xl text-slate-900 font-bold'>{title}</h4>
+                    <p className='text-base text-slate-700 font-normal'>{text}</p>
+                  </div>
                 </li>
               )
             })

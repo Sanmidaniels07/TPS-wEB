@@ -3,11 +3,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //custom files
 import Home from "./pages/Home/home";
-import SuccessStory from "./pages/SuccessStories";
-import About from "./pages/about";
-import Blog from "./pages/blog";
-import ContactUs from "./pages/contactUs";
-import FAQs from "./pages/faqs";
+import SuccessStories from "./pages/SuccessStories";
+import About from "./pages/About";
+import Blog from "./pages/Blog";
+import ContactUs from "./pages/ContactUs";
+import FAQs from "./pages/FAQs";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Support from "./pages/Support";
 
@@ -16,13 +16,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="./about" element={<About />} />
-        <Route path="./blog" element={<Blog />} />
-        <Route path="./contactUs" element={<ContactUs />} />
-        <Route path="./knowledgeBase" element={<KnowledgeBase />} />
-        <Route path="./successStory" element={<SuccessStory />} />
-        <Route path="./support" element={<Support />} />
-        <Route path="./faqs" element={<FAQs />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/knowledge-base" element={<KnowledgeBase />} />
+        <Route path="/success-stories" element={<SuccessStories />} />
+        <Route path="/support" element={<Support />} />
+        <Route path="/faqs" element={<FAQs />} />
       </Routes>
     </BrowserRouter>
   );
