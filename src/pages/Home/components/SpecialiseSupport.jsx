@@ -98,7 +98,7 @@ export default function SpecialiseSupport() {
 
                 {/* why choose CIS */}
                 <div className="flex flex-col items-center mt-28 space-y-10 my-20 mx-auto md:space-y-0 md:space-x-16 md:flex-row">
-                    <img src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/AdobeStock_43603761-1024x686.jpeg" class='w-full h-auto md:w-1/2 md:mb-0 object-center object-cover md:aspect-ratio-square md:h-full' />
+                    <img alt="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/AdobeStock_43603761-1024x686.jpeg" class='w-full h-auto md:w-1/2 md:mb-0 object-center object-cover md:aspect-ratio-square md:h-full' />
 
                     <div className="flex flex-col space-y-4 text-left">
                         <div className="text-gray-500 text-lg">Why Choose CIS</div>

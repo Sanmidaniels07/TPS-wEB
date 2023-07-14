@@ -4,7 +4,6 @@ import SpecialiseSupport from './components/SpecialiseSupport'
 import Cookies from './components/Cookies'
 import NewsBlog from './components/NewsBlog'
 import Partners from './components/Partners'
-import Footer from './components/Footer'
 import './home.css'
 import { useState } from 'react'
 
