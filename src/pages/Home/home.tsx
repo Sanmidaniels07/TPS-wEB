@@ -18,7 +18,6 @@ const Home = () => {
       <SuccessStories />
       <NewsBlog />
       <Partners />
-      <Footer />
       <Cookies showCookies={showCookie} onclick={() => setShowCookies(false)} />
     </div>
   )

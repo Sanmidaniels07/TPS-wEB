@@ -10,6 +10,7 @@ import ContactUs from "./pages/contactUs";
 import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Support from "./pages/Support";
+import Footer from "./pages/Home/components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
