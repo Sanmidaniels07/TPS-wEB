@@ -12,10 +12,10 @@ export default function AboutHero() {
           {/* lrft text */}
           <div className="text-left px-6 md:p-16">
             <text className="text-left text-blue-400">About</text>
-            <div className="text-left my-10  font-bold text-5xl text-white">
+            <div className="text-left my-10  font-bold text-3xl md:text-5xl text-white">
               Who Are CIS?
             </div>
-            <text className="text-white text-left text-2xl">
+            <text className="text-white text-left md:text-2xl">
               A Leading Managed IT Service Provider (MSP) based in Oxfordshire.
             </text>
           </div>
