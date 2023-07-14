@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import "./about.css"
+
+//custom files
+import AboutHero from "./components/AboutHero";
+import TopMostInfo from "../Home/components/TopMostInfo";
 
 const About = () => {
   return (
-    <div>index</div>
-  )
-}
+    <div>
+      <TopMostInfo/>
+      <AboutHero />
+    </div>
+  );
+};
 
-export default About
+export default About;
