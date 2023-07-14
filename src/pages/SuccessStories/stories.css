@@ -1,0 +1,4 @@
+.hero-svg {
+  @apply absolute top-[50%] right-[-100px] h-[20rem] z-20;
+  transform: translateY(-60%);
+}

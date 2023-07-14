@@ -8,7 +8,6 @@ import TopMostInfo from "../Home/components/TopMostInfo";
 const About = () => {
   return (
     <div>
-      <TopMostInfo/>
       <AboutHero />
     </div>
   );

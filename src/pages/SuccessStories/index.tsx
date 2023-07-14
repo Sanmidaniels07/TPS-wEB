@@ -1,8 +1,12 @@
 import React from 'react'
+import './stories.css'
+import Hero from './components/Hero'
 
 const SuccessStories = () => {
   return (
-    <div>index</div>
+    <>
+      <Hero />
+    </>
   )
 }
 
