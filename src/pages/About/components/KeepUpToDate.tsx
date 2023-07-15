@@ -1,10 +1,10 @@
 import { AiOutlineRight } from "react-icons/ai";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+import { Carousel } from "react-responsive-carousel";
+
 
 export default function KeepUpToDate() {
   
-
   return (
     <section id="keep-up-t-date" className="my-10">
       <div className="min-h-screen my-10 px-6 md:px-10">
