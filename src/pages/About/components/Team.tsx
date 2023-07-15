@@ -8,24 +8,23 @@ export default function Team() {
     },
     {
       image:
-     "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Matt-Grantham.jpg",      
+        "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Matt-Grantham.jpg",
       position: "Operations Director",
-      name:"Matt Grantham"
+      name: "Matt Grantham",
     },
     {
       image:
-      "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Dan-Hadland.jpg",
+        "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Dan-Hadland.jpg",
       name: "Daniel Hadland",
       position: "Technology & Innovation Director",
     },
     {
       image:
-      "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Ashley-Baker.jpg",
+        "https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Ashley-Baker.jpg",
       position: "Finance Director",
-      name:"Ashley Barker"
+      name: "Ashley Barker",
     },
   ];
-
 
   return (
     <section id="team">
@@ -43,8 +42,7 @@ export default function Team() {
           {/* each picture */}
 
           {teamMembers.map((member, index) => (
-        
-            <div className=" md:w-1/4 m-3 w-5/12">
+            <div key={index} className=" md:w-1/4 m-3 w-5/12">
               <img
                 alt=""
                 nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Neil-Lawson-Smith.jpg"
@@ -55,10 +53,10 @@ export default function Team() {
               />
 
               <div className="space-y-3 text-left my-5">
-                <p className=" text-xl md:text-2xl font-bold">
-                  {member.name}
+                <p className=" text-xl md:text-2xl font-bold">{member.name}</p>
+                <p className="text-blue-600 text-sm md:text-lg ">
+                  {member.position}
                 </p>
-                <p className="text-blue-600 text-sm md:text-lg ">{member.position}</p>
               </div>
             </div>
           ))}

@@ -1,8 +1,11 @@
-import React from 'react'
+import FaqsHero from "./components/FaqsHero"
+import "./faqs.css"
 
 const FAQs = () => {
   return (
-    <div>index</div>
+    <div>
+      <FaqsHero/>
+    </div>
   )
 }
 
