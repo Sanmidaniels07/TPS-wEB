@@ -7,6 +7,7 @@ import Description from "./components/Description";
 import Team from "./components/Team";
 import Partners from "./components/Partners";
 import BannerInfo from "./components/BannerInfo";
+import KeepUpToDate from "./components/KeepUpToDate";
 
 
 const About = () => {
@@ -16,6 +17,7 @@ const About = () => {
       <Description/>
       <Team/>
       <BannerInfo/>
+      <KeepUpToDate/>
       <Partners/>
     </div>
   );
