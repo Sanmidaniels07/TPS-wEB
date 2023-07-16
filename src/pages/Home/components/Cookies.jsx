@@ -17,10 +17,10 @@ const Cookies = ({onclick, showCookies}) => {
             <div className='flex flex-col md:flex-row md:space-y-0 md:space-x-3'>
               <div className='flex flex-col md:flex-row'>
                 <p>This site uses cookies to help improve user experience. For these reasons, we may share data with our analytics partners.
-                  By using CIS, you accept our use of cookies. <a href="#" className='underline text-blue-500 text-lg font-semi-bold'>Find out more</a> </p>
+                  By using CIS, you accept our use of cookies. <a href="https://" className='underline text-blue-500 text-lg font-semi-bold'>Find out more</a> </p>
                 <a
                   onClick={onclick}
-                  href="#"
+                  href="https://"
                   className="mx-auto py-2 px-10  text-black text-lg bg-white rounded-full outline outline-blue-400 h-12 ml-2 mt-5 md:mt-0 hover:bg-sky-400 duration-200"
                 >Agree</a>
               </div>

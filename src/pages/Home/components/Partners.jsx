@@ -19,7 +19,7 @@ const Partners = () => {
           companies.map((image, index) => {
             return (
               <div className="flex items-center justify-center max-w-[5.5rem] sm:max-w-[7rem] md:max-w-[12rem]" key={index}>
-                <img class="block h-auto max-h-[3.25rem] md:max-h-[6.5rem]" src={image} />
+                <img alt="" class="block h-auto max-h-[3.25rem] md:max-h-[6.5rem]" src={image} />
               </div>
             )
           })

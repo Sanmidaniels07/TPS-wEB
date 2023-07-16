@@ -28,7 +28,7 @@ export default function Team() {
 
   return (
     <section id="team">
-      <div className="py-10 min-h-screen px-6 md:px-16">
+      <div className="py-7 min-h-screen px-6 md:px-16">
         {/* headings */}
         <div className="space-y-3 text-left">
           <p className="text-xl text-black">Our Team</p>
