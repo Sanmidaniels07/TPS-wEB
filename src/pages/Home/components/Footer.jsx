@@ -93,7 +93,7 @@ const Footer = () => {
                 </h4>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Cloud Solutions
@@ -101,7 +101,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Cyber Security
@@ -109,7 +109,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Communications
@@ -117,7 +117,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     IT Support
@@ -125,7 +125,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Backup & Recovery
@@ -139,7 +139,7 @@ const Footer = () => {
                 </h4>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     About
@@ -147,7 +147,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Knowledge
@@ -155,7 +155,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Success Stories
@@ -163,7 +163,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Blog
@@ -171,7 +171,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Career
@@ -188,7 +188,7 @@ const Footer = () => {
                 </h4>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Cloud Solutions
@@ -202,7 +202,7 @@ const Footer = () => {
                 </h4>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     +44 13767 700 555
@@ -210,7 +210,7 @@ const Footer = () => {
                 </div>
                 <div className="my-3">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Faringdon Business Centre,
@@ -218,7 +218,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Brunel House
@@ -226,7 +226,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     volunteer Way
@@ -234,7 +234,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Faringdon
@@ -242,7 +242,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 text-blue-400 font-sans"
                   >
                     Birmingham
@@ -250,7 +250,7 @@ const Footer = () => {
                 </div>
                 <div className="my-2">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     +44 1217 591 000
@@ -258,7 +258,7 @@ const Footer = () => {
                 </div>
                 <div className="my-3">
                   <a
-                    href="#"
+                    href="https://"
                     className="border-transparent border-b-2 hover:border-gray-400 text-white font-sans"
                   >
                     Izabella House, Regent place.
@@ -274,7 +274,7 @@ const Footer = () => {
                   Stay up to date
                 </h4>
                 <div className="my-2">
-                  <a href="#" className=" text-white font-sans">
+                  <a href="https://" className=" text-white font-sans">
                     Discover the latest industry news, offers & more!
                   </a>
                 </div>
@@ -323,8 +323,8 @@ const Footer = () => {
                 <div className="flex flex-row gap-1 mt-5 ">
                   <a
                     class="c-social-icon mr-6"
-                    target="_blank"
-                    href="https://www.facebook.com/ComputingInformationSystemsLtd"
+             
+                    href="https://"
                   >
                     {" "}
                     <svg
@@ -345,7 +345,7 @@ const Footer = () => {
                   </a>
                   <a
                     class="c-social-icon mr-6"
-                    target="_blank"
+             
                     href="https://twitter.com/cis_oxford?lang=en"
                   >
                     {" "}
@@ -367,7 +367,7 @@ const Footer = () => {
                   </a>
                   <a
                     class="c-social-icon mr-6"
-                    target="_blank"
+                   
                     href="https://www.linkedin.com/company/computing-information-systems"
                   >
                     {" "}

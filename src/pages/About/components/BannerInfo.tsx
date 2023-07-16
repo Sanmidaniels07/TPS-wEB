@@ -3,8 +3,8 @@
 export default function BannerInfo() {
   return (
     <section id="banner">
-        <div className="p-10 my-10 mb-20">
-            <div className="bg-blue-400 shadow-xl rounded py-20 px-10 text-white text-left space-y-7">
+        <div className="px-6 p-10 my-10 mb-20">
+            <div className="bg-blue-400 shadow-xl  rounded py-20 px-10 text-white text-left space-y-7">
                 <p className="text-black mb-7 text-xl">
                     Careers
                 </p>

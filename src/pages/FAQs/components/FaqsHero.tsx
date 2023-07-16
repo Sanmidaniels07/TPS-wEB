@@ -3,7 +3,7 @@ import Navbar from "../../home/components/Navbar";
 export default function FaqsHero() {
   return (
     // HERO WRAPPER
-    <section id="about-hero" className="bg-black bg-opacity-70 ">
+    <section id="faqs-hero" className="bg-black bg-opacity-70 ">
       <Navbar />
       {/* CONTENT WRAPPER */}
       <div className="bg-black py-32 bg-opacity-70 max-h-screen overflow-hidden ">

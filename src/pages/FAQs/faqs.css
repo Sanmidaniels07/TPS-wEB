@@ -1,11 +1,11 @@
-#about-hero {
+#faqs-hero {
     background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Knowledge-Base2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   @media (max-width: 570px) {
-    #about-hero {
+    #faqs-hero {
       background-image: url("https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2020/04/Knowledge-Base2.jpg");
       background-size: center;
     }
