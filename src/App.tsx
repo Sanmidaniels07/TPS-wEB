@@ -24,6 +24,7 @@ function App() {
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
