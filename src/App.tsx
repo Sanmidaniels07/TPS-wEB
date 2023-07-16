@@ -10,6 +10,7 @@ import ContactUs from "./pages/ContactUs";
 import FAQs from "./pages/FAQs";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Support from "./pages/Support";
+import Terms from "./pages/Terms";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </BrowserRouter>
   );

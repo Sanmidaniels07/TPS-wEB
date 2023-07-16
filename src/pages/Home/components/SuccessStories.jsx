@@ -37,7 +37,7 @@ const SuccessStories = () => {
             })
           }
         </div>
-        <Link to='./successStory'>
+        <Link to='/success-stories'>
         <button className="px-8 py-3 rounded-full bg-transparent border-2 border-primary100 text-black font-normal text-lg hover:bg-primary100 hover:text-white hover:transition-colors hover:duration-300">
           More success stories
         </button>
