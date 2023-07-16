@@ -10,6 +10,7 @@ import FAQs from "./pages/FAQs";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Support from "./pages/Support";
 import Terms from "./pages/Terms";
+import Footer from './pages/Home/components/Footer'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/knowledgeBase" element={<KnowledgeBase />} />
-        <Route path="/successStory" element={<SuccessStory />} />
+        <Route path="/successStory" element={<SuccessStories />} />
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
         <Route path="/terms" element={<Terms />} />
