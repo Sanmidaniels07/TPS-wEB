@@ -9,6 +9,7 @@ import ContactUs from "./pages/contactUs";
 import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/knowledgeBase";
 import Support from "./pages/support";
+import Footer from "./pages/home/components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="./support" element={<Support />} />
         <Route path="./faqs" element={<FAQs />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
