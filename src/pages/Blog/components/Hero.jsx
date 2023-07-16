@@ -3,8 +3,8 @@ import Navbar from "../../home/components/Navbar";
 
 const Hero = () => {
   return (
-    <section id="hero">
-      <Navbar />
+    <section id="blog-hero">
+      <Navbar/>
       <div className="bg-black bg-opacity-70 min-h-screen ">
         <div className="relative flex flex-col py-48 px-9 overflow-hidden text-left md:flex-row md:items-center">
           <div className="flex flex-col w-full md:w-2/3 lg:w-1/2">
@@ -21,7 +21,7 @@ const Hero = () => {
 
           <div className="hidden md:block w-full md:w-1/3 lg:1/2">
             <svg
-              className="hero-svg"
+              className="blog-hero-svg"
               xmlns="http://www.w3.org/2000/svg"
               xmlnsXlink="http://www.w3.org/1999/xlink"
               viewBox="0 0 1258 778"

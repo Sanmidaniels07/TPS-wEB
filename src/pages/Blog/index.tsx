@@ -1,5 +1,6 @@
 import React from 'react'
-import Hero from '../home/components/Hero'
+import Hero from './components/Hero'
+import './blog.css'
 import BlogSection from './components/BlogSection'
 
 const Blog = () => {
