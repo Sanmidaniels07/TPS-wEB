@@ -1,8 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 //custom files
-import Home from "./pages/Home/home";
+import Home from "./pages/home/home";
 import SuccessStory from "./pages/successStories";
 import About from "./pages/about";
 import Blog from "./pages/blog";

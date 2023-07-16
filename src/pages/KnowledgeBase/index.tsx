@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Navbar from '../Home/components/Navbar'
+import Navbar from '../home/components/Navbar'
 
 const KnowledgeBase = () => {
   return <>

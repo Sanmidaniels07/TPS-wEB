@@ -1,4 +1,4 @@
-import Navbar from "../../Home/components/Navbar";
+import Navbar from "../../home/components/Navbar";
 
 export default function FaqsHero() {
   return (
