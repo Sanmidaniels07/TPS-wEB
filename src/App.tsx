@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //custom files
-import Home from "./pages/home/home";
+import Home from "./pages/Home/home";
 import SuccessStory from "./pages/successStories";
 import About from "./pages/about";
 import Blog from "./pages/blog";
@@ -9,7 +9,7 @@ import ContactUs from "./pages/contactUs";
 import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/knowledgeBase";
 import Support from "./pages/support";
-import Footer from "./pages/home/components/Footer";
+import Footer from "./pages/Home/components/Footer";
 
 function App() {
   return (
