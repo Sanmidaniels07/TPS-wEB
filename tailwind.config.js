@@ -16,6 +16,8 @@ module.exports = {
         'primary-dark': "#031429",
         'primary': "#2C6DBC",
         'primary100': "#49a8ff",
+        'light': '#f2f5fa',
+        'input': 'rgba(73,168,255,0.15)',      
       }
     },
   },
