@@ -9,7 +9,7 @@ import ContactUs from "./pages/contactUs";
 import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/knowledgeBase";
 import Support from "./pages/support";
-import Footer from "./pages/Home/components/Footer";
+import Footer from "./pages/home/components/Footer";
 
 function App() {
   return (

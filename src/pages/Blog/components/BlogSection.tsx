@@ -4,7 +4,6 @@ import Navbar from '../../home/components/Navbar'
 const BlogSection = () => {
   return (
     <section>
-        <Navbar/>
 
     </section>
   )
