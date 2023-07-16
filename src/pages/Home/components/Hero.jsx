@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Navbar";
 
 export default function Hero() {
@@ -6,8 +5,8 @@ export default function Hero() {
     <section id="hero">
       <Navbar />
       <div className="bg-black bg-opacity-70 min-h-screen ">
-        <div className="flex flex-col py-52 overflow-hidden  text-left md:flex-row md:items-center">
-          <div className="md:pr-48 px-6 md:pl-14 ">
+        <div className="flex flex-col py-40 overflow-hidden text-left md:flex-row md:items-center">
+          <div className="px-6 md:pl-14 lg:pl-24 ">
             <p className="text-sky-400 mb-10 font-semibold">
               Making I.T Work Smarter For Your Business
             </p>
@@ -28,7 +27,7 @@ export default function Hero() {
               </div>
 
               <div className=" text-white font-semibold text-center border-b-2 border-b-sky-600 hover:border-b-0 duration-200">
-                <a href="#" className="text-center">
+                <a href="https:" className="text-center">
                   Get in touch
                 </a>
               </div>
@@ -46,27 +45,27 @@ export default function Hero() {
         <div className="grid grid-cols-2 text-xs py-6 px-6 md:px-14 items-center md:text-lg md:flex flex-row border-t-2 border-sky-800 md:space-y-0 md:space-x-20 md:justify-evenly">
             {/* item 1 */}
             <div className="flex-row items-center my-3 hidden md:flex md:my-0 space-x-2 md:space-x-5 text-white">
-            <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg"/>
+            <img alt="" nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/light-bulb.svg"/>
                 <p>Est. 1989</p>
             </div>
 
              {/* item 2 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white ">
-             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg"/> <p>Worldwide Support</p>
+             <img alt="" nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/worldwide.svg"/> <p>Worldwide Support</p>
             </div>
 
              {/* item 3 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white">
-             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg"/> <p>Team of Expert</p>
+             <img alt="" nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/users.svg"/> <p>Team of Expert</p>
             </div>
 
              {/* item 4 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2 md:space-x-5 text-white ">
-             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg"/> <p>Cloud Services</p>
+             <img alt="" nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg" class=" ls-is-cached lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/upload.svg"/> <p>Cloud Services</p>
             </div>
              {/* item 5 */}
              <div className="flex flex-row items-center my-3 md:my-0 space-x-2  md:space-x-5 text-white">
-             <img nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg"/> <p>Expert Solutions</p>
+             <img alt="" nitro-lazy-src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg" class=" lazyloaded" decoding="async" nitro-lazy-empty="" src="https://cdn-adchm.nitrocdn.com/eZehlnEhyRUIGTheitFZhEcdCZwkLROW/assets/images/optimized/rev-e3547e4/wp-content/uploads/2021/12/life-ring.svg"/> <p>Expert Solutions</p>
             </div>
         </div>
       </div>
