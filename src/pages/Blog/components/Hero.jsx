@@ -140,6 +140,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <div className="w-full h-20 bg-white shadow-sm">
+
+      </div>
     </section>
   );
 };
