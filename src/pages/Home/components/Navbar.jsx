@@ -115,9 +115,9 @@ const Navbar = () => {
   const [openForm, setOpenForm] = useState(false);
 
   return (
-    <>
+    <header className='z-[100]'>
       <TopMostInfo />
-      <header className="relative z-40 bg-black bg-opacity-70">
+      <div className="relative bg-black bg-opacity-70">
         <nav className='flex items-center justify-between py-5 px-7 md:p-7 bg-transparent text-white hover:bg-black border-b-2 border-b-primary h-36'>
           <Link to="/">
             <svg className="text-white w-40" height="58" viewBox="0 0 141 58" width="141" xmlns="http://www.w3.org/2000/svg"> 
@@ -183,8 +183,8 @@ const Navbar = () => {
           {/* Mobile Menu */}
           {navbar && <MobileNav close={closeNavbar} />}
         </nav>
-      </header>
-    </>
+      </div>
+    </header>
   )
 }
 

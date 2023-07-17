@@ -1,15 +1,16 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//custom files
-import Home from "./pages/home/home";
-import SuccessStory from "./pages/successStories";
+
+import Home from "./pages/Home/home";
+import SuccessStories from "./pages/successStories";
 import About from "./pages/about";
 import Blog from "./pages/blog";
 import ContactUs from "./pages/contactUs";
 import FAQs from "./pages/faqs";
 import KnowledgeBase from "./pages/knowledgeBase";
 import Support from "./pages/support";
-import Footer from "./pages/home/components/Footer";
+import Terms from "./pages/Terms";
+import Footer from './pages/Home/components/Footer'
 
 function App() {
   return (
@@ -18,11 +19,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/contactUs" element={<ContactUs />} />
-        <Route path="/knowledgeBase" element={<KnowledgeBase />} />
-        <Route path="/successStory" element={<SuccessStory />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/knowledge-base" element={<KnowledgeBase />} />
+        <Route path="/success-stories" element={<SuccessStories />} />
         <Route path="/support" element={<Support />} />
         <Route path="/faqs" element={<FAQs />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
       <Footer/>
     </BrowserRouter>
