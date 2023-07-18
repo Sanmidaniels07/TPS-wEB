@@ -19,13 +19,13 @@ export default function Description() {
 
             {/* list items */}
             <ul className="space-y-3 ml-4">
-              <li className=" text-gray-600">Cloud services</li>
-              <li className="text-gray-600">Cyber security</li>
-              <li className="text-gray-600">Communications infrastructure</li>
-              <li className="text-left text-gray-600">
+              <li className="list-disc text-gray-600">Cloud services</li>
+              <li className="list-disc text-gray-600">Cyber security</li>
+              <li className="list-disc text-gray-600">Communications infrastructure</li>
+              <li className="list-disc text-left text-gray-600">
                 Back up & disaster recovery
               </li>
-              <li className="text-left text-gray-600">IT support</li>
+              <li className="list-disc text-left text-gray-600">IT support</li>
             </ul>
           </div>
 
@@ -86,19 +86,19 @@ export default function Description() {
 
             {/* list items */}
             <ul className="space-y-3 ml-4">
-              <li className=" text-gray-600">
+              <li className="list-disc  text-gray-600">
                 Last year CIS completed 34,000 tickets at a resolution rate of
                 99.8%
               </li>
-              <li className="text-gray-600">
+              <li className="list-disc text-gray-600">
                 82% of customers are on managed contracts
               </li>
-              <li className="text-gray-600">
+              <li className="list-disc text-gray-600">
                 Average Survey Score 4.83/5.00 – 96.6%
               </li>
             </ul>
 
-            <p className="text-gray-600">
+            <p className="list-disc text-gray-600">
               Our dedicated team of experts continually work to ensure that all
               IT development helps to make IT work smarter for business.
             </p>

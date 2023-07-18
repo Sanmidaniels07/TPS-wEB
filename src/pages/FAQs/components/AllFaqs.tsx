@@ -42,235 +42,115 @@ export default function AllFaqs() {
       </div>
 
       {/* FREQUENTLY ASKED QUESTIONS */}
-      <div className="bg-gray-200 px-6 md:px-10 py-10">
+      <div className="bg-slate-100 py-8 px-10 md:px-10 md:py-24">
         {/* questions */}
-      
+
         <div className="flex flex-col md:flex-row md:space-x-6">
-        <div className="text-3xl flex-1 font-bold mb-10">All FAQs</div>
-         
-        <div className="grid md:grid-cols-2 md:w-3/4 gap-4 md:gap-10">
-          <div className="flex flex-row items-center">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
+          <div className="text-3xl flex-1 font-bold mb-10">All FAQs</div>
 
-            <p className="text-black">
-              Why is CYDEFENCE’s authenticated web application scanning
-              important?
-            </p>
-          </div>
+          <div className="grid md:grid-cols-2 md:w-3/4 gap-4 md:gap-10">
+            <div className="flex flex-row items-center">
+              <ul>
+                <li className="text-black list-disc">
+                  Why is CYDEFENCE’s authenticated web application scanning
+                  important?
+                </li>
+              </ul>
+            </div>
 
-          <div className="flex flex-row items-center">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
+            <div className="flex flex-row items-center">
+              <ul>
+                <li className="text-black list-disc ">
+                  Do CIS offer penetration testing services?
+                </li>
+              </ul>
+            </div>
 
-            <p className="text-black">
-              Do CIS offer penetration testing services?
-            </p>
-          </div>
+            <div className="flex flex-row items-center">
+              <ul>
+                <li className="text-black list-disc">
+                  How often should I run CYDEFENCE vulnerability scans?
+                </li>
+              </ul>
+            </div>
 
-          <div className="flex flex-row items-center">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
+            <div className="flex flex-row items-center">
+              <ul>
+                <li className="text-black list-disc">
+                  Should I start with CYDEFENCE’s external vulnerability
+                  scanning or web application scanning?
+                </li>
+              </ul>
+            </div>
 
-            <p className="text-black">
-              How often should I run CYDEFENCE vulnerability scans?
-            </p>
-          </div>
+            <div className="flex items-center flex-row">
+              <ul>
+                <li className="text-black list-disc">
+                  Can I scan network devices with CYDEFENCE?
+                </li>
+              </ul>
+            </div>
 
-          <div className="flex flex-row items-center">
-            <svg
-              className="svg-inline--fa fa-angle-right fa-w-6 w-5 text-blue-400 text-primary-light text-20 mt-4 mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
+            <div className="flex items-center flex-row">
+              <ul>
+                <li className="text-black list-disc">
+                  What is the difference between CYDEFENCE’s external and
+                  internal vulnerability scan?
+                </li>
+              </ul>
+            </div>
 
-            <p className="text-black">
-              Should I start with CYDEFENCE’s external vulnerability scanning or
-              web application scanning?
-            </p>
-          </div>
+            <div className="flex items-center flex-row">
+              <ul>
+                <li className="text-black list-disc">
+                  What is a web application scanner?
+                </li>
+              </ul>
+            </div>
 
-          <div className="flex items-center flex-row">
-            <svg
-              className="svg-inline--fa fa-angle-right fa-w-6 w-5 text-blue-400 text-primary-light text-20 mt-4 mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
+            <div className="flex items-center flex-row">
+              <ul>
+                <li className="text-black list-disc">
+                  Should I perform CYDEFENCE external vulnerability scanning or
+                  external penetration testing?
+                </li>
+              </ul>
+            </div>
 
-            <p className="text-black">
-              Can I scan network devices with CYDEFENCE?
-            </p>
-          </div>
-
-          <div className="flex items-center flex-row">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
-            <p className="text-black">
-              What is the difference between CYDEFENCE’s external and internal
-              vulnerability scan?
-            </p>
-          </div>
-
-          
-          <div className="flex items-center flex-row">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
-            <p className="text-black">
-            What is a web application scanner?
-            </p>
-          </div>
-
-          
-          <div className="flex items-center flex-row">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
-            <p className="text-black">
-            Should I perform CYDEFENCE external vulnerability scanning or external penetration testing?
-            </p>
-          </div>
-
- 
-          <div className="flex items-center flex-row">
-            <svg
-              className="w-5 text-blue-400  mr-5"
-              aria-hidden="true"
-              focusable="false"
-              data-prefix="fal"
-              data-icon="angle-right"
-              role="img"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192 512"
-              data-fa-i2sv=""
-            >
-              {" "}
-              <path
-                fill="currentColor"
-                d="M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z"
-              ></path>{" "}
-            </svg>
-            <p className="text-black">
-            Can CYDEFENCE scan behind a web-app login?
-            </p>
+            <div className="flex items-center flex-row">
+              <ul>
+                <li className="text-black list-disc">
+                  Can CYDEFENCE scan behind a web-app login?
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
-        </div>
-       
+        {/* stay updated section */}
+      <div className="border-2 relative w- mt-20 flex flex-col md:flex-row space-y-4 md:space-x-10 border-blue-100 p-5 ms:p-10 rounded md:justify-between ">
+            
+            <div className="space-y-5 flex-1 text-left my-12">
+              <p className="text-black text-3xl font-bold">Keep up to date</p>
+              <p className="text-black text-lg">
+              Join our mailing list and stay up to date with all the latest in the IT world.
+              </p>
+            </div>
+
+            <div className="flex flex-1  items-center md:px-0 flex-row mb-10 space-x-3 ">
+              <input
+                type="text"
+                placeholder="Email Address"
+                className="flex-1 py-3 px-4  placeholder:text-black rounded-full bg-gray-200 text-black outline-blue-400"
+              />
+              <div className="rounded-full p-3 border-2  cursor-pointer border-blue-400">
+                <AiOutlineRight />
+              </div>
+            </div>
+          </div>
       </div>
+
+      
     </section>
   );
 }
